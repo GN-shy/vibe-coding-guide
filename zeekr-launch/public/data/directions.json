@@ -1,0 +1,1254 @@
+[
+  {
+    "id": "frontend",
+    "name": "前端开发",
+    "icon": "🌐",
+    "description": "构建用户界面与交互体验，从页面仔到架构师的进阶之路",
+    "difficulty": 3,
+    "demand": 5,
+    "estimatedMonths": "6-10",
+    "suitableFor": "喜欢所见即所得、对UI/交互敏感、有审美追求的人",
+    "relatedPaths": ["fullstack", "ai-agent", "mobile"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "HTML5 + CSS3 地基",
+        "duration": "2-3周",
+        "color": "green",
+        "skills": [
+          { "name": "HTML5 语义化标签", "detail": "header/main/section/article/nav/aside 等结构化标签，SEO 友好" },
+          { "name": "CSS3 Flexbox 完全掌握", "detail": "主轴/交叉轴、flex-grow/shrink/basis、align-content 等全部属性" },
+          { "name": "CSS3 Grid 布局精通", "detail": "grid-template-areas、auto-fit/minmax、implicit grid" },
+          { "name": "响应式设计体系", "detail": "媒体查询策略、mobile-first、rem/em/vw/vh/clamp()、container queries" },
+          { "name": "CSS 动画与过渡", "detail": "transition、keyframes、animation-timing-function、transform 3D" },
+          { "name": "CSS 预处理器", "detail": "Sass/SCSS 变量、嵌套、mixin、function" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "JavaScript 核心能力",
+        "duration": "5-8周",
+        "color": "green",
+        "skills": [
+          { "name": "ES6+ 语法精通", "detail": "箭头函数、解构赋值、模板字符串、Symbol、Set/Map" },
+          { "name": "异步编程深入", "detail": "Promise 原理、async/await、事件循环(Event Loop)、微任务/宏任务" },
+          { "name": "作用域与闭包", "detail": "执行上下文、作用域链、闭包应用场景(模块化/柯里化)" },
+          { "name": "原型链与面向对象", "detail": "prototype、class 继承、组合式继承 vs class 语法糖" },
+          { "name": "DOM 高级操作", "detail": "虚拟 DOM 原理、事件委托、自定义事件、Shadow DOM" },
+          { "name": "网络与 API", "detail": "Fetch/Axios、RESTful、WebSocket、SSE、跨域解决方案(CORS/JSONP/Proxy)" },
+          { "name": "模块化与工程化", "detail": "ES Module、CommonJS、Tree Shaking、代码分割" },
+          { "name": "Git 版本控制", "detail": "分支策略(Git Flow)、rebase/merge、cherry-pick、冲突解决" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "框架深入 + TypeScript",
+        "duration": "8-10周",
+        "color": "yellow",
+        "skills": [
+          { "name": "React 18 完全精通", "detail": "Hooks 原理、useReducer/useContext/useMemo/useCallback、Suspense、Concurrent Mode" },
+          { "name": "状态管理方案", "detail": "Zustand / Jotai / Redux Toolkit、状态机(XState)、服务端状态(React Query/SWR)" },
+          { "name": "路由与导航", "detail": "React Router v6 完整方案、嵌套路由、路由守卫、懒加载" },
+          { "name": "TypeScript 深入", "detail": "泛型进阶(infer/extends)、工具类型(Partial/Pick/ReturnType)、声明文件、类型体操" },
+          { "name": "Vue 3 (备选)", "detail": "Composition API、ref/reactive、Teleport、Suspense、Pinia" },
+          { "name": "测试体系", "detail": "Vitest/Jest 单元测试、React Testing Library、Playwright E2E、测试覆盖率" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "工程化与性能优化",
+        "duration": "4-6周",
+        "color": "orange",
+        "skills": [
+          { "name": "构建工具深入", "detail": "Vite 原理(ESBuild/Rollup)、Webpack 核心(Loader/Plugin/HMR)、Turbopack" },
+          { "name": "性能优化体系", "detail": "Core Web Vitals(LCP/FID/CLS)、懒加载/预加载/预渲染、包体积优化、关键渲染路径" },
+          { "name": "浏览器原理", "detail": "渲染流水线(重排/重绘/合成)、V8 引擎、内存泄漏诊断、Performance 面板" },
+          { "name": "CI/CD 前端流水线", "detail": "GitHub Actions、自动部署(Lint/Build/Test/Deploy)、Chromatic 视觉回归" },
+          { "name": "代码质量", "detail": "ESLint + Prettier 配置、Husky + lint-staged、Code Review 规范" },
+          { "name": "Monorepo 管理", "detail": "pnpm workspace / Turborepo / Nx、共享包管理" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "大厂进阶与架构",
+        "duration": "6-8周",
+        "color": "red",
+        "skills": [
+          { "name": "Next.js 14 全栈框架", "detail": "App Router、Server Component、Server Actions、Streaming SSR、ISR" },
+          { "name": "微前端架构", "detail": "Module Federation、qiankun/single-spa、微应用通信、共享依赖" },
+          { "name": "跨端方案", "detail": "React Native / Taro / uni-app、Flutter Web" },
+          { "name": "大前端架构设计", "detail": "分层架构、组件设计模式(Compound/Render Props/HOC)、错误边界与容灾" },
+          { "name": "前端安全", "detail": "XSS/CSRF 防御、CSP、Subresource Integrity、认证鉴权方案" },
+          { "name": "Node.js BFF", "detail": "Express/Koa 中间件、API Gateway、GraphQL BFF、SSR 服务端优化" },
+          { "name": "WebAssembly", "detail": "WASM 基础、Rust→WASM 流程、性能关键场景使用" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "面试冲刺与职业发展",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "前端算法与数据结构", "detail": "LeetCode Hot 100、树/链表/DP 在前端的应用" },
+          { "name": "手写代码题", "detail": "Promise 实现、深拷贝、防抖节流、模板引擎、虚拟 DOM" },
+          { "name": "系统设计(前端)", "detail": "设计一个实时协作编辑器、大型表单系统、前端监控系统" },
+          { "name": "项目深挖", "detail": "技术选型理由、难点攻克、性能优化成果(量化数据)" },
+          { "name": "简历与作品集", "detail": "Star 法则、量化成果、GitHub 主页美化、技术博客" },
+          { "name": "模拟面试", "detail": "大厂面试流程(一面基础/二面项目/三面架构/四面HR)" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "MDN Web Docs", "url": "https://developer.mozilla.org", "free": true },
+      { "name": "roadmap.sh/frontend", "url": "https://roadmap.sh/frontend", "free": true },
+      { "name": "React 官方文档", "url": "https://react.dev", "free": true },
+      { "name": "Next.js 官方教程", "url": "https://nextjs.org/learn", "free": true },
+      { "name": "TypeScript 中文手册", "url": "https://typescript.p6p.net", "free": true },
+      { "name": "JavaScript 高级程序设计(红宝书)", "url": "", "free": false }
+    ],
+    "milestoneProject": "从零实现一个完整的 SaaS 管理后台(Next.js + TypeScript + TailwindCSS)，包含权限系统、数据可视化、暗色模式",
+    "salaryRange": "15-40k (大厂可到60k+)"
+  },
+  {
+    "id": "backend",
+    "name": "后端开发",
+    "icon": "⚙️",
+    "description": "构建高并发高可用的分布式系统，支撑亿级用户业务",
+    "difficulty": 4,
+    "demand": 5,
+    "estimatedMonths": "8-14",
+    "suitableFor": "喜欢逻辑推理、数据处理、系统设计、追求高性能的人",
+    "relatedPaths": ["fullstack", "devops", "data"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "编程语言与计算机基础",
+        "duration": "6-8周",
+        "color": "green",
+        "skills": [
+          { "name": "主语言深入", "detail": "Java(首选) / Go / Rust / Python，精通语法与核心库" },
+          { "name": "数据结构与算法", "detail": "数组/链表/栈/队列/树/图、排序/搜索、时间空间复杂度分析" },
+          { "name": "操作系统基础", "detail": "进程/线程、内存管理、文件系统、I/O 模型(BIO/NIO/AIO)" },
+          { "name": "计算机网络", "detail": "TCP/IP 协议栈、HTTP/HTTPS、DNS、CDN、OSI 七层模型" },
+          { "name": "设计模式", "detail": "单例/工厂/策略/观察者/责任链、SOLID 原则、DDD 领域驱动" },
+          { "name": "Linux 开发环境", "detail": "命令行操作、Vim/SSH、Shell 脚本、系统监控" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "数据库技术栈",
+        "duration": "5-7周",
+        "color": "green",
+        "skills": [
+          { "name": "关系型数据库精通", "detail": "MySQL/PostgreSQL 高级 SQL、索引原理(B+树)、事务隔离级别、MVCC、锁机制" },
+          { "name": "SQL 优化与调优", "detail": "EXPLAIN 分析、慢查询优化、分库分表(ShardingSphere/MyCat)、读写分离" },
+          { "name": "NoSQL 数据库", "detail": "Redis 核心数据结构与持久化、MongoDB 聚合管道、Elasticsearch 全文搜索" },
+          { "name": "缓存策略", "detail": "缓存穿透/雪崩/击穿、多级缓存、本地缓存(Caffeine)、分布式缓存" },
+          { "name": "ORM 框架", "detail": "MyBatis/MyBatis-Plus、JPA/Hibernate、Prisma、GORM" },
+          { "name": "数据库设计", "detail": "ER 图、范式/反范式、数据迁移、BigQuery/TiDB" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "框架与API 开发",
+        "duration": "6-8周",
+        "color": "yellow",
+        "skills": [
+          { "name": "主流 Web 框架", "detail": "Spring Boot / Gin / FastAPI / Express，掌握核心机制(IoC/AOP/中间件)" },
+          { "name": "RESTful API 设计规范", "detail": "资源路由、状态码、版本控制、HATEOAS、OpenAPI 3.0 文档" },
+          { "name": "认证与授权体系", "detail": "JWT 原理、OAuth 2.0 四种模式、SSO、RBAC 权限模型、Spring Security" },
+          { "name": "API 网关", "detail": "Spring Cloud Gateway / Kong / APISIX、限流/熔断/降级" },
+          { "name": "gRPC 与微服务通信", "detail": "Protocol Buffers、HTTP/2、服务间调用、双向流" },
+          { "name": "GraphQL API", "detail": "Schema 设计、Resolver、DataLoader、Apollo/Netflix DGS" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "分布式系统核心",
+        "duration": "8-10周",
+        "color": "orange",
+        "skills": [
+          { "name": "消息中间件", "detail": "Kafka(深度)、RocketMQ、RabbitMQ、消息可靠性/顺序/幂等" },
+          { "name": "分布式理论", "detail": "CAP/BASE、一致性协议(Raft/Paxos/Gossip)、分布式事务(Seata/TCC/Saga)" },
+          { "name": "注册中心与配置中心", "detail": "Nacos / Zookeeper / Consul / Etcd、服务发现与健康检查" },
+          { "name": "分布式锁与 ID 生成", "detail": "Redis 分布式锁(Redisson)、雪花算法、美团 Leaf、百度 UidGenerator" },
+          { "name": "RPC 框架", "detail": "Dubbo / Motan / Thrift、序列化与传输协议" },
+          { "name": "调度与定时任务", "detail": "XXL-JOB / Quartz / Elastic-Job、分布式调度原理" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "大厂架构与高可用",
+        "duration": "8-10周",
+        "color": "red",
+        "skills": [
+          { "name": "微服务架构设计", "detail": "服务拆分原则、DDD 限界上下文、BFF/聚合服务、网格服务(Service Mesh)" },
+          { "name": "高并发设计", "detail": "秒杀系统、流量削峰、异步化、读写分离、连接池调优" },
+          { "name": "容灾与高可用", "detail": "异地多活、同城双活、熔断降级(Hystrix/Sentinel)、限流算法(令牌桶/漏桶)" },
+          { "name": "可观测性", "detail": "链路追踪(SkyWalking/ Zipkin)、监控(Prometheus + Grafana)、日志(ELK)" },
+          { "name": "容器化与 K8s", "detail": "Docker 镜像构建、K8s Pod/Service/Deployment/Helm、Istio 服务网格" },
+          { "name": "云原生架构", "detail": "Serverless(FaaS)、Event-Driven Architecture、CQRS、事件溯源" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "面试冲刺与大厂通关",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "LeetCode 刷题", "detail": "Hot 100 + 剑指 Offer + 竞赛题、Java/C++/Go 多语言实现" },
+          { "name": "后端系统设计", "detail": "设计微信红包/抖音Feed流/美团外卖/12306 售票系统" },
+          { "name": "源码阅读", "detail": "Spring Boot 启动流程、Kafka 存储设计、Redis 事件循环" },
+          { "name": "八股文专项", "detail": "JVM 内存模型/GC调优、并发编程(AQS/CAS/锁升级)、MySQL 索引优化" },
+          { "name": "项目亮点挖掘", "detail": "QPS/TP99/可用性 量化指标、技术难点攻克过程、架构演进史" },
+          { "name": "大厂面试策略", "detail": "简历投递(内推/Boss/牛客)、笔试准备、各厂特色问题" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "roadmap.sh/backend", "url": "https://roadmap.sh/backend", "free": true },
+      { "name": "Spring 官方指南", "url": "https://spring.io/guides", "free": true },
+      { "name": "JavaGuide 面试指南", "url": "https://javaguide.cn", "free": true },
+      { "name": "小林 Coding", "url": "https://xiaolincoding.com", "free": true },
+      { "name": "DDIA 数据密集应用设计", "url": "", "free": false },
+      { "name": "系统设计面试(Alex Xu)", "url": "", "free": false }
+    ],
+    "milestoneProject": "独立设计并实现一个高并发秒杀系统(Spring Boot + Redis + Kafka + MySQL)，支持流量削峰、库存防超卖",
+    "salaryRange": "15-45k (大厂可到80k+)"
+  },
+  {
+    "id": "mobile",
+    "name": "移动端开发",
+    "icon": "📱",
+    "description": "打造极致移动体验，从原生到跨平台的全栈移动开发",
+    "difficulty": 3,
+    "demand": 4,
+    "estimatedMonths": "8-12",
+    "suitableFor": "喜欢移动产品生态、对原生体验和交互细节有追求的人",
+    "relatedPaths": ["frontend", "fullstack"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "平台与语言基础",
+        "duration": "4-6周",
+        "color": "green",
+        "skills": [
+          { "name": "平台选型", "detail": "iOS(Swift/SwiftUI) / Android(Kotlin/Jetpack Compose) / 跨平台(Flutter/RN)" },
+          { "name": "开发环境配置", "detail": "Xcode 16 + Simulator、Android Studio + Emulator、Flutter SDK" },
+          { "name": "语言深入", "detail": "Swift 闭包/协议/泛型、Kotlin 协程/Flow/密封类、Dart 异步/隔离区" },
+          { "name": "声明式 UI 入门", "detail": "SwiftUI View 协议、Compose @Composable、Flutter Widget 树" },
+          { "name": "App 工程结构", "detail": "MVC/MVVM/MVI 架构、项目模块化、资源管理" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "UI 构建与交互",
+        "duration": "5-7周",
+        "color": "green",
+        "skills": [
+          { "name": "高级 UI 组件", "detail": "List/GridView/ScrollView/ TabView、自定义布局、Lazy 加载" },
+          { "name": "导航与路由", "detail": "NavigationStack/ NavController/ Navigator 2.0、深层链接" },
+          { "name": "手势与动画系统", "detail": "点击/滑动/缩放手势、隐式/显式动画、转场动画、Lottie/Rive" },
+          { "name": "主题与设计系统", "detail": "暗色模式、Dynamic Type/缩放适配、Material You / HIG 规范" },
+          { "name": "无障碍与国际化", "detail": "VoiceOver/TalkBack、RTL 布局、多语言字符串管理" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "数据层与网络",
+        "duration": "5-7周",
+        "color": "yellow",
+        "skills": [
+          { "name": "网络请求与缓存", "detail": "URLSession/Retrofit/HttpClient、拦截器、缓存策略、离线优先" },
+          { "name": "本地持久化", "detail": "CoreData/SwiftData、Room、SQLite、SharedPreferences/DataStore" },
+          { "name": "状态管理", "detail": "Combine/ViewModel/Riverpod/Provider/BLoC" },
+          { "name": "依赖注入", "detail": "Swinject / Hilt/Dagger / GetIt" },
+          { "name": "WebSocket 与实时通信", "detail": "Socket.IO、STOMP、推送通知(APNs/FCM)" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "架构与性能",
+        "duration": "5-7周",
+        "color": "orange",
+        "skills": [
+          { "name": "应用架构演进", "detail": "MVC→MVP→MVVM→MVI→Clean Architecture、分层与数据流" },
+          { "name": "性能优化", "detail": "启动速度优化、包体积缩减、内存泄漏检测(LeakCanary/Instruments)" },
+          { "name": "多线程与并发", "detail": "GCD/OperationQueue、Kotlin Flow、Isolate、Actor 模型" },
+          { "name": "单元测试与 UI 测试", "detail": "XCTest/JUnit、MockK/Mockito、UI 自动化(XCUITest/Espresso)" },
+          { "name": "CI/CD 移动端", "detail": "Fastlane 自动化、TestFlight 分发、Firebase App Distribution" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "跨平台与进阶",
+        "duration": "4-6周",
+        "color": "orange",
+        "skills": [
+          { "name": "Flutter 深入", "detail": "RenderObject 自定义绘制、Platform Channel、Isolate 并发" },
+          { "name": "React Native 新架构", "detail": "Fabric/TurboModules/JSI、Hermes 引擎、Expo SDK" },
+          { "name": "KMP (Kotlin Multiplatform)", "detail": "共享业务逻辑、expect/actual、跨平台数据层" },
+          { "name": "原生与 Web 混合", "detail": "WebView JSBridge、小程序容器技术" },
+          { "name": "AR/VR 移动端", "detail": "ARKit/ARCore、RealityKit、SceneView" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "上架与职业发展",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "App Store 上架", "detail": "证书/描述文件、TestFlight 审核、App Review 避坑" },
+          { "name": "Google Play 发布", "detail": "签名机制、AAB/APK、商品详情优化" },
+          { "name": "移动端安全", "detail": "代码混淆(ProGuard/R8)、证书绑定 SSL Pinning、防逆向" },
+          { "name": "数据埋点与分析", "detail": "Firebase Analytics、Mixpanel、自定义埋点方案" },
+          { "name": "Crash 监控", "detail": "Firebase Crashlytics / Sentry、崩溃堆栈分析" },
+          { "name": "大厂移动端面试", "detail": "性能优化专题、跨平台对比、架构设计、项目难点" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "Apple SwiftUI 官方教程", "url": "https://developer.apple.com/tutorials/swiftui", "free": true },
+      { "name": "Android Developer 指南", "url": "https://developer.android.com/docs", "free": true },
+      { "name": "Flutter 官方文档", "url": "https://flutter.dev/docs", "free": true },
+      { "name": "raywenderlich/Kodeco", "url": "https://kodeco.com", "free": false }
+    ],
+    "milestoneProject": "开发并上架一个完整 App (Flutter/原生可选)，包含用户系统、实时数据、推送通知、暗色模式",
+    "salaryRange": "15-40k (大厂可到65k+)"
+  },
+  {
+    "id": "ai-algorithm",
+    "name": "AI 算法工程师",
+    "icon": "🧠",
+    "description": "深入机器学习与深度学习算法核心，从数学原理到前沿大模型",
+    "difficulty": 5,
+    "demand": 5,
+    "estimatedMonths": "12-18",
+    "suitableFor": "数学基础扎实、喜欢研究算法原理、追求 AI 前沿技术的人",
+    "relatedPaths": ["nlp", "cv", "ai-agent", "data"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "数学基础夯实",
+        "duration": "6-10周",
+        "color": "green",
+        "skills": [
+          { "name": "线性代数深入", "detail": "矩阵运算/分解(SVD/PCA)、特征值/特征向量、向量空间、范数" },
+          { "name": "概率论与数理统计", "detail": "贝叶斯理论、常见分布、最大似然估计、假设检验、蒙特卡洛方法" },
+          { "name": "微积分与优化", "detail": "多元微分、梯度下降/变体(Adam/RMSProp)、拉格朗日对偶、凸优化" },
+          { "name": "信息论基础", "detail": "熵、KL 散度、互信息、交叉熵" },
+          { "name": "图论与组合数学", "detail": "图神经网络基础、PageRank、随机游走" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "编程与数据处理",
+        "duration": "4-6周",
+        "color": "green",
+        "skills": [
+          { "name": "Python 科学计算", "detail": "NumPy 向量化操作、Pandas 数据变换、Matplotlib/Seaborn 可视化" },
+          { "name": "数据预处理与特征工程", "detail": "缺失值处理、归一化/标准化、编码、特征选择/降维、数据增强" },
+          { "name": "SQL 与数据探索", "detail": "复杂查询、窗口函数、ETL 流程、数据质量检测" },
+          { "name": "PyTorch 入门", "detail": "Tensor 操作、Autograd、Dataset/DataLoader、模型定义与训练" },
+          { "name": "实验管理", "detail": "Jupyter Notebook、MLflow/WandB、实验追踪与复现" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "机器学习经典算法",
+        "duration": "8-12周",
+        "color": "yellow",
+        "skills": [
+          { "name": "监督学习全面", "detail": "线性/逻辑回归、决策树/随机森林、SVM(Kernel 技巧)、KNN、朴素贝叶斯" },
+          { "name": "集成学习方法", "detail": "Bagging/Boosting/Stacking、XGBoost/LightGBM/CatBoost 原理与调参" },
+          { "name": "无监督学习", "detail": "K-Means/DBSCAN 聚类、PCA/t-SNE/UMAP 降维、关联规则(Apriori)" },
+          { "name": "模型评估与选择", "detail": "交叉验证、AUC-ROC、混淆矩阵、F1/Precision/Recall、偏差方差权衡" },
+          { "name": "正则化与防止过拟合", "detail": "L1/L2 正则化、Dropout、Early Stopping、数据增强" },
+          { "name": "特征工程高级", "detail": "特征交叉、时序特征、文本特征(TF-IDF/Word2Vec)、自动化特征工程" },
+          { "name": "scikit-learn 精通", "detail": "Pipeline/ColumnTransformer、网格搜索/贝叶斯调参、模型持久化" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "深度学习进阶",
+        "duration": "10-14周",
+        "color": "orange",
+        "skills": [
+          { "name": "神经网络基础", "detail": "MLP 反向传播推导、激活函数、权重初始化、Batch/Layer Normalization" },
+          { "name": "CNN 卷积网络", "detail": "卷积/池化原理、ResNet/DenseNet/Inception、迁移学习/微调" },
+          { "name": "RNN 与序列模型", "detail": "LSTM/GRU、双向 RNN、Seq2Seq + Attention、时序预测" },
+          { "name": "Transformer 架构", "detail": "Self-Attention/Multi-Head、位置编码、BERT/GPT 架构解读" },
+          { "name": "生成模型", "detail": "VAE、GAN(DCGAN/WGAN/StyleGAN)、Diffusion Model 原理" },
+          { "name": "PyTorch 高级", "detail": "自定义 Dataset/Sampler、分布式训练(DP/DDP/FSDP)、混合精度训练" },
+          { "name": "模型部署基础", "detail": "ONNX 导出、TorchScript/TensorRT、模型量化/剪枝" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "LLM 与大模型时代",
+        "duration": "8-10周",
+        "color": "red",
+        "skills": [
+          { "name": "大模型基础", "detail": "GPT 系列演进、LLaMA/Qwen/DeepSeek 架构、MoE 混合专家" },
+          { "name": "训练技术", "detail": "预训练(Scaling Law)、SFT 指令微调、RLHF/DPO、LoRA/QLoRA 高效微调" },
+          { "name": "模型推理优化", "detail": "KV Cache、Flash Attention、vLLM/TGI 推理框架、PagedAttention" },
+          { "name": "RAG 技术栈", "detail": "文档解析(Unstructured)、分块策略、向量数据库(Milvus/Pinecone)、检索排序" },
+          { "name": "评测与安全", "detail": "Benchmark(MMLU/CEval)、幻觉检测、越狱防护、内容安全" },
+          { "name": "AI Agent 基础", "detail": "ReAct/Function Calling、工具使用、代码生成与执行" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "算法面试与工业实战",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "LeetCode 算法刷题", "detail": "HOT 100 + 剑指 Offer、DP/贪心/图 高频题型、ACM 模式" },
+          { "name": "机器学习八股", "detail": "LR 推导、SVM 对偶、GBDT 残差、BN 训练/推理区别" },
+          { "name": "深度学习八股", "detail": "Transformer 完整推导、梯度消失/爆炸、Normalization 对比" },
+          { "name": "大模型面试", "detail": "RLHF 流程、PagedAttention 原理、SFT 数据构建、Agent 评测" },
+          { "name": "论文复现与创新", "detail": "最新顶会论文复现(ICML/NeurIPS/ICLR)、Kaggle 竞赛" },
+          { "name": "工业项目落地", "detail": "推荐系统/NLP/CV 方向项目、AB 实验、模型监控与回滚" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "CS229 机器学习(Andrew Ng)", "url": "https://cs229.stanford.edu", "free": true },
+      { "name": "CS231n CNN 视觉识别", "url": "https://cs231n.stanford.edu", "free": true },
+      { "name": "Hugging Face 课程", "url": "https://huggingface.co/learn", "free": true },
+      { "name": "李沐 深度学习课程", "url": "https://space.bilibili.com/1567748478", "free": true },
+      { "name": "动手学深度学习(李沐)", "url": "https://d2l.ai", "free": true }
+    ],
+    "milestoneProject": "从零训练/微调一个领域大模型，搭建 RAG 系统或完成 Kaggle 前 1% 竞赛方案",
+    "salaryRange": "25-60k (大厂/独角兽可到100k+)"
+  },
+  {
+    "id": "ai-agent",
+    "name": "AI Agent 全栈开发",
+    "icon": "🤖",
+    "description": "构建基于大模型的智能体应用，从前端交互到 Agent 编排的全链路开发",
+    "difficulty": 4,
+    "demand": 5,
+    "estimatedMonths": "8-12",
+    "suitableFor": "对大模型应用开发感兴趣、想快速构建 AI 产品的人",
+    "relatedPaths": ["frontend", "backend", "ai-algorithm", "fullstack"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "编程基础与 LLLM 入门",
+        "duration": "3-4周",
+        "color": "green",
+        "skills": [
+          { "name": "Python 核心", "detail": "类型提示、异步编程(asyncio)、装饰器、Pydantic 数据验证" },
+          { "name": "TypeScript 基础", "detail": "类型系统、异步/await、Node.js 基础、npm 生态" },
+          { "name": "LLM API 调用", "detail": "OpenAI/Claude API、Prompt 设计、Temperature/Top-P 参数、Stream 模式" },
+          { "name": "Prompt Engineering", "detail": "Chain-of-Thought、Few-shot、System Prompt 设计、结构化输出" },
+          { "name": "函数调用 Function Calling", "detail": "Tool/Function 定义、参数 Schema、自动路由" },
+          { "name": "版本控制与协作", "detail": "Git + GitHub、项目管理、README 编写" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "Agent 框架与编排",
+        "duration": "6-8周",
+        "color": "yellow",
+        "skills": [
+          { "name": "LangChain 框架", "detail": "Chain/LCEL、Memory、Agent Executor、Callback 系统" },
+          { "name": "AutoGen / CrewAI", "detail": "多 Agent 协作、对话模式、任务委派、群聊管理" },
+          { "name": "ReAct 模式深入", "detail": "思考-行动-观察循环、工具注册、错误重试、中间步骤追踪" },
+          { "name": "向量数据库与 RAG", "detail": "Chroma/Weaviate/Milvus、Embedding 模型、分块策略、混合检索" },
+          { "name": "Agent 工具开发", "detail": "自定义 Tool(API/代码执行/文件操作)、工具安全沙箱" },
+          { "name": "Agent 记忆系统", "detail": "短期/长期记忆、向量记忆、摘要记忆、实体记忆" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "前端基础 for AI 应用",
+        "duration": "4-6周",
+        "color": "green",
+        "skills": [
+          { "name": "React 核心", "detail": "组件/Hooks/状态管理、适合构建 AI Chat/Agent 交互界面" },
+          { "name": "实时通信", "detail": "SSE(Server-Sent Events)、WebSocket、流式文本渲染" },
+          { "name": "AI 聊天界面设计", "detail": "Markdown 渲染、代码高亮、Thinking 过程展示、文件上传预览" },
+          { "name": "TailwindCSS + shadcn/ui", "detail": "快速构建现代 UI、组件库定制、暗色模式" },
+          { "name": "Next.js App Router", "detail": "Server Component、API Routes、Server Actions、流式响应" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "后端基础 for Agent",
+        "duration": "4-6周",
+        "color": "yellow",
+        "skills": [
+          { "name": "FastAPI / Express", "detail": "Agent 服务端开发、异步接口、WebSocket 端点" },
+          { "name": "数据库基础", "detail": "PostgreSQL + Prisma/SQLAlchemy、对话历史存储" },
+          { "name": "用户认证系统", "detail": "NextAuth.js / JWT、API Key 管理、用量控制" },
+          { "name": "消息队列", "detail": "Celery + Redis、异步任务、Agent 任务编排" },
+          { "name": "向量数据库集成", "detail": "LangChain + 向量库、知识库管理 API" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "Agent 全栈项目实战",
+        "duration": "6-8周",
+        "color": "orange",
+        "skills": [
+          { "name": "AI Chatbot 全栈", "detail": "Next.js + LangChain + 向量库，支持多轮对话/文件上传/知识库 RAG" },
+          { "name": "多 Agent 协作系统", "detail": "AutoGen + FastAPI + React，多角色 Agent 协作完成任务" },
+          { "name": "AI 编程助手", "detail": "代码生成/审查 Agent、沙箱执行、VSCode 扩展对接" },
+          { "name": "AI 工作流引擎", "detail": "可视化 Agent 工作流(LangGraph)、条件分支、人工审核节点" },
+          { "name": "语音/多模态 Agent", "detail": "Whisper 语音转文字、图像理解、TTS 语音输出" },
+          { "name": "Agent 评估与可观测", "detail": "LangSmith/LangFuse、Trace 追踪、Token 用量监控、质量评估" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "生产部署与职业发展",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "生产级部署", "detail": "Docker + K8s 部署 Agent 服务、弹性伸缩、GPU 资源管理" },
+          { "name": "成本优化", "detail": "Token 缓存、模型路由(便宜/昂贵模型切换)、上下文窗口管理" },
+          { "name": "安全与合规", "detail": "Prompt 注入防护、内容过滤、数据隐私(PII 脱敏)" },
+          { "name": "性能优化", "detail": "流式响应优化、首 Token 延迟、并发请求管理" },
+          { "name": "Agent 产品化", "detail": "用户反馈循环、A/B 测试、迭代优化、PMF 探索" },
+          { "name": "面试与作品集", "detail": "AI 应用开发项目展示、Agent 架构设计、端到端 demo" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "LangChain 官方文档", "url": "https://python.langchain.com", "free": true },
+      { "name": "OpenAI Cookbook", "url": "https://cookbook.openai.com", "free": true },
+      { "name": "Microsoft AutoGen", "url": "https://microsoft.github.io/autogen", "free": true },
+      { "name": "LangGraph 教程", "url": "https://langchain-ai.github.io/langgraph", "free": true },
+      { "name": "DeepLearning.AI 课程", "url": "https://deeplearning.ai", "free": false }
+    ],
+    "milestoneProject": "构建一个生产级的多 Agent 协作平台，支持自定义工具/知识库/工作流编排，包含完整前端 + 后端",
+    "salaryRange": "20-50k (AI 创业公司可到70k+)"
+  },
+  {
+    "id": "nlp",
+    "name": "NLP 自然语言处理",
+    "icon": "📝",
+    "description": "让机器理解与生成人类语言，从词向量到大模型的全链路技术",
+    "difficulty": 5,
+    "demand": 4,
+    "estimatedMonths": "12-16",
+    "suitableFor": "对语言/文本分析感兴趣、数学基础好、喜欢与文字打交道的人",
+    "relatedPaths": ["ai-algorithm", "ai-agent", "cv", "data"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "数学与编程基础",
+        "duration": "6-8周",
+        "color": "green",
+        "skills": [
+          { "name": "概率统计进阶", "detail": "HMM、CRF、EM 算法、贝叶斯网络" },
+          { "name": "线性代数", "detail": "矩阵分解(SVD/NMF)、张量运算、谱定理" },
+          { "name": "Python 数据栈", "detail": "NumPy/Pandas/Scipy、NLTK/SpaCy 基础、正则表达式深度" },
+          { "name": "信息论", "detail": "熵/交叉熵/KL散度/互信息、困惑度(Perplexity)" },
+          { "name": "语言学基础", "detail": "词法/句法/语义分析、语用学、形态学" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "NLP 经典方法",
+        "duration": "6-8周",
+        "color": "green",
+        "skills": [
+          { "name": "文本预处理技术", "detail": "分词(正向/反向/BM)、词性标注、命名实体识别、依存句法分析" },
+          { "name": "词向量表示", "detail": "Word2Vec(CBOW/Skip-gram)、GloVe、FastText、ELMo" },
+          { "name": "文本分类与情感分析", "detail": "朴素贝叶斯、SVM、TextCNN、情感分析实战" },
+          { "name": "序列标注", "detail": "BiLSTM-CRF、NER 实体抽取、关系抽取" },
+          { "name": "主题模型", "detail": "LSA/PLSA/LDA、Bertopic、主题演化" },
+          { "name": "NLP 工具包", "detail": "NLTK / SpaCy / Stanford NLP / HanLP / Jieba" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "深度学习在 NLP",
+        "duration": "8-10周",
+        "color": "yellow",
+        "skills": [
+          { "name": "RNN/LSTM/GRU", "detail": "序列模型原理、双向 RNN、梯度问题、门控机制" },
+          { "name": "Seq2Seq + Attention", "detail": "编码器-解码器、Bahdanau/Luong Attention、机器翻译" },
+          { "name": "Transformer 完全解读", "detail": "Scaled Dot-Product Attention、Multi-Head、Positional Encoding、Mask" },
+          { "name": "BERT 与预训练", "detail": "MLM/NSP 预训练、Fine-tuning、RoBERTa/ALBERT/ELECTRA" },
+          { "name": "文本生成", "detail": "自回归/非自回归生成、Beam Search/Top-K/Top-P、温度控制" },
+          { "name": "PyTorch NLP 实战", "detail": "Transformer 从零实现、Hugging Face Transformers 库" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "LLM 与大模型 NLP",
+        "duration": "8-10周",
+        "color": "orange",
+        "skills": [
+          { "name": "GPT 系列架构", "detail": "GPT-2/3/4 演进、生成式预训练、Scaling Laws、Chinchilla 最优计算" },
+          { "name": "LLaMA/Qwen/DeepSeek", "detail": "开源大模型架构对比、RoPE/SwiGLU/RMSNorm、GQA/MQA" },
+          { "name": "指令微调 SFT", "detail": "指令数据构建、对话模板、Loss 计算、多轮对话微调" },
+          { "name": "对齐技术 RLHF/DPO", "detail": "奖励模型训练、PPO 算法、DPO 直接偏好优化、KTO" },
+          { "name": "高效微调 PEFT", "detail": "LoRA/QLoRA/AdaLoRA、Prompt Tuning、Prefix Tuning" },
+          { "name": "NLP 评测体系", "detail": "BLEU/ROUGE/METEOR 传统指标、LLM-as-Judge、人工评估" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "NLP 应用与工程",
+        "duration": "6-8周",
+        "color": "red",
+        "skills": [
+          { "name": "信息检索与 RAG", "detail": "文档检索(Dense/稀疏)、重排序、HyDE、CRAG/Self-RAG" },
+          { "name": "对话系统", "detail": "任务型/开放域对话、状态追踪(TODO/DST)、对话策略" },
+          { "name": "机器翻译", "detail": "统计/神经机器翻译、多语言模型(mBART/M2M-100)" },
+          { "name": "文本摘要", "detail": "抽取式/生成式摘要、长文档摘要(Longformer/BigBird)" },
+          { "name": "代码生成", "detail": "Codex/StarCoder/CodeLlama、代码补全/修复" },
+          { "name": "NLP 工程化", "detail": "模型服务(Triton/vLLM)、ONNX 导出、C++/CUDA 算子融合" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "前沿研究与面试",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "多模态 NLP", "detail": "图文理解(LLaVA/Qwen-VL)、语音文本联合模型" },
+          { "name": "长上下文技术", "detail": "位置编码扩展、Ring Attention、Infini-Attention" },
+          { "name": "Agent 与工具使用", "detail": "Toolformer/Gorilla、代码执行、多步推理" },
+          { "name": "NLP 顶会论文", "detail": "ACL/EMNLP/NAACL 前沿方向、论文复现与改进" },
+          { "name": "NLP 面试专项", "detail": "Transformer 完整推导、BERT vs GPT 对比、微调技术栈" },
+          { "name": "工业项目", "detail": "智能客服/信息抽取/内容审核 端到端方案设计" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "Stanford CS224n NLP", "url": "https://web.stanford.edu/class/cs224n", "free": true },
+      { "name": "Hugging Face NLP Course", "url": "https://huggingface.co/learn/nlp-course", "free": true },
+      { "name": "Speech and Language Processing", "url": "https://web.stanford.edu/~jurafsky/slp3", "free": true },
+      { "name": "The Annotated Transformer", "url": "https://nlp.seas.harvard.edu/2018/04/03/attention.html", "free": true }
+    ],
+    "milestoneProject": "从零训练/微调一个领域 LLM，并搭建完整的 RAG 问答系统，支持多轮对话与知识检索",
+    "salaryRange": "25-60k (大厂/研究院可到90k+)"
+  },
+  {
+    "id": "cv",
+    "name": "计算机视觉",
+    "icon": "👁️",
+    "description": "让机器看懂世界，从图像分类到扩散模型的视觉智能",
+    "difficulty": 5,
+    "demand": 4,
+    "estimatedMonths": "12-16",
+    "suitableFor": "对图像/视频处理感兴趣、数学基础强、喜欢视觉美感的人",
+    "relatedPaths": ["ai-algorithm", "nlp", "ai-agent"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "数学与编程基础",
+        "duration": "6-8周",
+        "color": "green",
+        "skills": [
+          { "name": "线性代数深入", "detail": "矩阵分解、张量运算、奇异值分解、最小二乘" },
+          { "name": "概率统计", "detail": "高斯分布、贝叶斯推理、最大似然估计" },
+          { "name": "图像处理基础", "detail": "OpenCV 核心操作、滤波/边缘检测/形态学、色彩空间" },
+          { "name": "Python 科学计算", "detail": "NumPy 图像张量操作、Matplotlib 可视化、图像 I/O" },
+          { "name": "数字图像原理", "detail": "采样/量化、傅里叶变换、图像金字塔、直方图均衡" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "经典 CV 算法",
+        "duration": "6-8周",
+        "color": "green",
+        "skills": [
+          { "name": "特征提取与匹配", "detail": "SIFT/SURF/ORB 特征、RANSAC 匹配、图像拼接" },
+          { "name": "图像分割", "detail": "阈值分割、分水岭算法、GrabCut、超像素(SLIC)" },
+          { "name": "目标检测(经典)", "detail": "HOG + SVM、滑动窗口、非极大抑制(NMS)" },
+          { "name": "视频处理", "detail": "光流(LK/Farneback)、背景建模、目标跟踪(KCF/DeepSORT)" },
+          { "name": "相机模型与标定", "detail": "针孔模型、畸变校正、双目视觉、PnP 求解" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "深度学习在 CV",
+        "duration": "8-12周",
+        "color": "yellow",
+        "skills": [
+          { "name": "CNN 架构演进", "detail": "AlexNet/VGG/GoogLeNet、ResNet/DenseNet、MobileNet/EfficientNet" },
+          { "name": "目标检测(深度)", "detail": "Faster R-CNN/YOLO(v5/v8/v9)/DETR/RT-DETR、Anchor-Free" },
+          { "name": "图像分割(深度)", "detail": "FCN/U-Net、Mask R-CNN、DeepLab、SAM(分割一切)" },
+          { "name": "姿态估计", "detail": "OpenPose/HRNet、关键点检测、3D 姿态估计" },
+          { "name": "图像分类与弱监督", "detail": "细粒度分类、多标签分类、弱监督定位" },
+          { "name": "训练技巧", "detail": "数据增强(Albumentations/imgaug)、学习率调度、Label Smoothing" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "生成模型与 AIGC",
+        "duration": "8-10周",
+        "color": "orange",
+        "skills": [
+          { "name": "GAN 系列", "detail": "DCGAN/WGAN/StyleGAN/Pix2Pix/CycleGAN、GAN 训练稳定技巧" },
+          { "name": "VAE 与变分方法", "detail": "VAE/CVAE/VQ-VAE、图像生成与编辑" },
+          { "name": "扩散模型 Diffusion", "detail": "DDPM/DDIM、Stable Diffusion 架构、ControlNet/LoRA、IP-Adapter" },
+          { "name": "多模态理解", "detail": "CLIP/ImageBind、BLIP-2/InstructBLIP、图文对齐" },
+          { "name": "NeRF 与 3D 生成", "detail": "NeRF/Instant-NGP、3D Gaussian Splatting、文本转 3D" },
+          { "name": "视觉大模型", "detail": "ViT/Swin Transformer、MAE 自监督、DINOv2" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "CV 工程与部署",
+        "duration": "6-8周",
+        "color": "red",
+        "skills": [
+          { "name": "模型加速与部署", "detail": "TensorRT/ONNX Runtime、NCNN/TNN 移动端部署、模型量化(INT8)" },
+          { "name": "视频理解", "detail": "3D CNN(Conv3D/I3D)、VideoMAE、时序动作检测" },
+          { "name": "自动驾驶视觉", "detail": "BEV 感知、Occupancy Network、多传感器融合" },
+          { "name": "医学影像分析", "detail": "医学图像分割、病灶检测、多模态医学" },
+          { "name": "边缘端 CV", "detail": "模型剪枝/蒸馏、TinyML、OpenCV DNN 模块" },
+          { "name": "CV 数据集与评测", "detail": "COCO/ImageNet/LVIS、mAP/FPS 评测、数据标注工具" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "前沿研究与面试",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "多模态大模型", "detail": "GPT-4V/Gemini/LLaVA、视频理解大模型、VLA 视觉语言动作" },
+          { "name": "3D AIGC", "detail": "文本/图像转 3D、4D 动态生成、3D Gaussian 编辑" },
+          { "name": "世界模型", "detail": "Sora/World Model、物理世界模拟、自动驾驶仿真" },
+          { "name": "CV 面试专项", "detail": "YOLO 系列演进、Transformer 在 CV、检测/分割 Loss 设计" },
+          { "name": "顶会论文", "detail": "CVPR/ICCV/ECCV 前沿、代码复现、研究创新点" },
+          { "name": "工业落地", "detail": "安防/新零售/工业质检 端到端 CV 方案" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "Stanford CS231n CNN", "url": "https://cs231n.stanford.edu", "free": true },
+      { "name": "CV 方向论文列表", "url": "https://paperswithcode.com/area/computer-vision", "free": true },
+      { "name": "OpenCV 官方教程", "url": "https://docs.opencv.org/master/d9/df8/tutorial_root.html", "free": true },
+      { "name": "Stable Diffusion 论文", "url": "https://arxiv.org/abs/2112.10752", "free": true }
+    ],
+    "milestoneProject": "训练/微调一个图像生成或视觉理解模型，并部署为 Web 应用或移动端 SDK",
+    "salaryRange": "25-60k (大厂/自动驾驶可到100k+)"
+  },
+  {
+    "id": "fullstack",
+    "name": "全栈开发",
+    "icon": "🏗️",
+    "description": "前端后端一手抓，独立交付完整产品的全栈工程师",
+    "difficulty": 4,
+    "demand": 4,
+    "estimatedMonths": "10-16",
+    "suitableFor": "想独立创业、成为独立开发者、或全面掌握 Web 技术的人",
+    "relatedPaths": ["frontend", "backend", "ai-agent", "devops"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "前端核心能力",
+        "duration": "5-7周",
+        "color": "green",
+        "skills": [
+          { "name": "HTML + CSS + JavaScript 精通", "detail": "语义化标签、Flexbox/Grid 精通、ES6+ 全部特性" },
+          { "name": "React/Vue 框架", "detail": "组件化、Hooks/Composition API、状态管理、路由" },
+          { "name": "TailwindCSS 与组件库", "detail": "原子化 CSS 思维、shadcn/ui / Ant Design、暗色模式" },
+          { "name": "TypeScript", "detail": "类型系统、泛型、类型工具、接口定义" },
+          { "name": "前端工程化", "detail": "Vite 配置、ESLint/Prettier、代码分割、懒加载" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "后端核心能力",
+        "duration": "5-7周",
+        "color": "green",
+        "skills": [
+          { "name": "Node.js + Express/NestJS", "detail": "中间件机制、错误处理、请求验证、依赖注入" },
+          { "name": "API 设计", "detail": "RESTful 规范、OpenAPI 文档、API 版本控制" },
+          { "name": "数据库设计", "detail": "PostgreSQL + Prisma ORM、数据建模、迁移管理" },
+          { "name": "认证系统", "detail": "NextAuth.js / Lucia、JWT/Session、OAuth 社交登录" },
+          { "name": "文件存储", "detail": "S3/MinIO/Cloudinary、图片优化(Sharp)、CDN 加速" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "全栈融合 Next.js",
+        "duration": "6-8周",
+        "color": "yellow",
+        "skills": [
+          { "name": "Next.js 全栈能力", "detail": "App Router、Server/Client Component、Server Actions、Streaming" },
+          { "name": "数据获取策略", "detail": "SSR/SSG/ISR/CSR 选择、React Query/SWR 缓存策略" },
+          { "name": "前端+后端+数据库", "detail": "全栈 CRUD、事务处理、乐观更新" },
+          { "name": "文件路由与中间件", "detail": "Route Groups、Intercepting Routes、Middleware 国际化/鉴权" },
+          { "name": "全栈类型安全", "detail": "tRPC / Zod 端到端类型、API 类型生成" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "数据库与部署",
+        "duration": "4-6周",
+        "color": "orange",
+        "skills": [
+          { "name": "数据库高级", "detail": "索引优化、事务隔离、连接池、迁移工具(Prisma Migrate)" },
+          { "name": "Redis 缓存", "detail": "缓存策略(旁路/穿透)、Session 存储、队列" },
+          { "name": "部署方案", "detail": "Vercel + Supabase / Railway / AWS、环境变量、CI/CD" },
+          { "name": "Docker 容器化", "detail": "Dockerfile 多阶段构建、docker-compose 全栈部署" },
+          { "name": "域名与 SSL", "detail": "Vercel 自定义域名、Cloudflare DNS、HTTPS 配置" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "全栈架构与产品思维",
+        "duration": "6-8周",
+        "color": "red",
+        "skills": [
+          { "name": "全栈架构设计", "detail": "分层架构、BFF 模式、事件驱动架构、读写分离" },
+          { "name": "支付集成", "detail": "Stripe / 支付宝/微信支付、Webhook、订阅计费" },
+          { "name": "实时功能", "detail": "WebSocket(Socket.io)、SSE、实时协作(Yjs/CRDT)" },
+          { "name": "测试策略", "detail": "单元测试(Vitest)、集成测试、Playwright E2E、测试金字塔" },
+          { "name": "SEO 与性能", "detail": "Core Web Vitals、元数据、Sitemap/RSS、结构化数据" },
+          { "name": "产品与商业", "detail": "MVP 最小可行产品、用户增长、数据分析、产品迭代" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "独立开发与职业发展",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "独立开发者路线", "detail": "idea 验证、快速原型、landing page、产品发布(Product Hunt)" },
+          { "name": "全栈系统设计", "detail": "设计 Uber/Twitter/Notion 等全栈架构" },
+          { "name": "AI + 全栈", "detail": "LLM API 集成、AI 功能嵌入产品、Prompt 工程" },
+          { "name": "性能与安全", "detail": "Web 安全(XSS/CSRF/SQL注入)、性能优化、Ratelimit" },
+          { "name": "作品集建设", "detail": "GitHub 开源、技术博客(Blog)、Side Project 展示" },
+          { "name": "大厂全栈面试", "detail": "前后端八股、系统设计、项目深挖、算法题" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "Next.js 官方教程", "url": "https://nextjs.org/learn", "free": true },
+      { "name": "The Odin Project", "url": "https://theodinproject.com", "free": true },
+      { "name": "roadmap.sh/full-stack", "url": "https://roadmap.sh/full-stack", "free": true },
+      { "name": "tRPC 文档", "url": "https://trpc.io/docs", "free": true }
+    ],
+    "milestoneProject": "独立开发一个完整 SaaS 产品(Next.js + PostgreSQL + Stripe 支付)，包含用户系统、仪表盘、API 接口",
+    "salaryRange": "18-45k (大厂全栈可到70k+)"
+  },
+  {
+    "id": "devops",
+    "name": "DevOps / SRE",
+    "icon": "🔧",
+    "description": "搭建高可用基础设施，保障服务稳定高效，从运维到云原生架构师",
+    "difficulty": 4,
+    "demand": 4,
+    "estimatedMonths": "8-14",
+    "suitableFor": "喜欢 Linux/自动化/系统架构、追求稳定性与效率的人",
+    "relatedPaths": ["backend", "fullstack", "security"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "系统与网络基础",
+        "duration": "5-7周",
+        "color": "green",
+        "skills": [
+          { "name": "Linux 系统管理深入", "detail": "内核参数调优、文件系统(XFS/ext4)、cgroup/namespace、systemd" },
+          { "name": "Shell 脚本编程", "detail": "Bash 高级语法、awk/sed 文本处理、脚本调试、定时任务" },
+          { "name": "计算机网络深入", "detail": "TCP 状态机/拥塞控制、HTTP/2/3、TLS 1.3、负载均衡(L4/L7)" },
+          { "name": "DNS 与 CDN", "detail": "DNS 解析流程、BIND/CoreDNS、CDN 原理(边缘节点/回源)" },
+          { "name": "网络排障工具", "detail": "tcpdump/Wireshark、netstat/ss、mtr、dig/nslookup" },
+          { "name": "编程语言", "detail": "Python/Go 运维自动化、Ansible 基础" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "容器化与编排",
+        "duration": "6-8周",
+        "color": "yellow",
+        "skills": [
+          { "name": "Docker 精通", "detail": "镜像优化(多阶段/精简)、多架构构建、安全扫描、Dockerfile 最佳实践" },
+          { "name": "Docker Compose 编排", "detail": "网络模式、卷挂载、健康检查、日志收集" },
+          { "name": "Kubernetes 核心", "detail": "Pod/Deployment/Service/Ingress 全面掌握、ConfigMap/Secret" },
+          { "name": "K8s 存储与网络", "detail": "PV/PVC/StorageClass、CNI(Calico/Flannel)、Service Mesh(Istio)" },
+          { "name": "Helm Charts", "detail": "Chart 结构、模板渲染、依赖管理、仓库部署" },
+          { "name": "K8s 生产运维", "detail": "etcd 备份、节点管理、资源配额、HPA/VPA 自动伸缩" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "CI/CD 与基础设施即代码",
+        "duration": "5-7周",
+        "color": "orange",
+        "skills": [
+          { "name": "CI/CD 流水线", "detail": "GitHub Actions / GitLab CI / Jenkins Pipeline、并行/缓存/产物管理" },
+          { "name": "GitOps", "detail": "ArgoCD / Flux、声明式部署、自动同步、回滚策略" },
+          { "name": "Terraform 深入", "detail": "HCL 语法、Provider/State/Module、远程状态、workspace 管理" },
+          { "name": "Ansible 配置管理", "detail": "Playbook/Role、Jinja2 模板、动态 Inventory" },
+          { "name": "Packer 镜像构建", "detail": "自动化镜像制作、多平台构建、Golden Image 策略" },
+          { "name": "版本控制策略", "detail": "Trunk Based / GitFlow、分支保护、Code Review 规范" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "云平台与架构",
+        "duration": "6-8周",
+        "color": "orange",
+        "skills": [
+          { "name": "AWS 核心服务", "detail": "EC2/S3/VPC/RDS/Lambda/IAM/CloudFront、架构最佳实践" },
+          { "name": "阿里云/腾讯云", "detail": "国内云核心服务、备案、安全组、专有网络 VPC" },
+          { "name": "Serverless 架构", "detail": "Lambda/Function Compute、API Gateway、SAM/Serverless Framework" },
+          { "name": "云成本优化", "detail": "预留实例/Spot 实例、自动扩缩容、成本分析(FinOps)" },
+          { "name": "混合云与多云", "detail": "VPN/专线、云间迁移、多云容灾" },
+          { "name": "架构设计(云原生)", "detail": "12-Factor App、Well-Architected Framework、弹性设计" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "可观测性与 SRE",
+        "duration": "5-7周",
+        "color": "red",
+        "skills": [
+          { "name": "监控体系", "detail": "Prometheus + Grafana 深度、告警规则、指标采集(Exporter)" },
+          { "name": "日志管理 ELK", "detail": "Elasticsearch 集群、Logstash/Fluentd 采集、Kibana 可视化" },
+          { "name": "链路追踪", "detail": "Jaeger/Zipkin/SkyWalking、OpenTelemetry 标准、分布式 tracing" },
+          { "name": "SRE 核心实践", "detail": "SLA/SLO/SLI、Error Budget、Incident Management、On-Call 轮值" },
+          { "name": "混沌工程", "detail": "Chaos Mesh/Litmus、故障注入、系统韧性验证" },
+          { "name": "容量规划与压测", "detail": "JMeter/Locust 压测、容量评估、限流降级" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "安全与面试冲刺",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "安全加固", "detail": "CIS Benchmark、K8s 安全(PodSecurity/RBAC)、容器安全扫描(Trivy)" },
+          { "name": "DevSecOps", "detail": "CI/CD 安全集成、SAST/DAST 扫描、依赖漏洞管理" },
+          { "name": "灾备与恢复", "detail": "备份策略、异地容灾、RTO/RPO 指标、灾难恢复演练" },
+          { "name": "DevOps 面试", "detail": "K8s 面试题、CICD 设计、故障排查情景题" },
+          { "name": "认证进阶", "detail": "CKA/CKAD、AWS SAA/SAPro、Prometheus 认证" },
+          { "name": "开源贡献", "detail": "参与 CNCF 项目、贡献 Helm Chart、Operator 开发" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "roadmap.sh/devops", "url": "https://roadmap.sh/devops", "free": true },
+      { "name": "Kubernetes 官方教程", "url": "https://kubernetes.io/docs/tutorials", "free": true },
+      { "name": "AWS 官方文档", "url": "https://aws.amazon.com/documentation", "free": true },
+      { "name": "Terraform 入门教程", "url": "https://developer.hashicorp.com/terraform/tutorials", "free": true },
+      { "name": "Google SRE 书籍", "url": "https://sre.google/books", "free": true }
+    ],
+    "milestoneProject": "用 Terraform + K8s 部署一套高可用微服务架构，集成 CICD + 监控告警 + 日志链路追踪",
+    "salaryRange": "18-45k (大厂/云厂商可到70k+)"
+  },
+  {
+    "id": "uiux",
+    "name": "UI/UX 设计",
+    "icon": "🎨",
+    "description": "设计美好数字体验，从像素级执行到全链路设计思维",
+    "difficulty": 2,
+    "demand": 3,
+    "estimatedMonths": "4-8",
+    "suitableFor": "有审美追求、喜欢用户研究、注重交互细节和视觉传达的人",
+    "relatedPaths": ["frontend", "fullstack"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "设计基础与工具",
+        "duration": "3-4周",
+        "color": "green",
+        "skills": [
+          { "name": "设计四大原则", "detail": "亲密性、对齐、对比、重复——CRAP 原则深度实践" },
+          { "name": "色彩理论系统", "detail": "色轮原理、配色方案(互补/类似/三角)、无障碍对比度(AA/AAA)" },
+          { "name": "排版与字体", "detail": "字型选择(System Fonts/Web Fonts)、字号层级(Looping)、行距/字间距" },
+          { "name": "Figma 完全掌握", "detail": "画板/组件/Variants/Auto Layout、ProtoPie 原型、设计系统管理" },
+          { "name": "视觉层次与布局", "detail": "负空间、视觉重量、F/Z 型布局、栅格系统(8px/4px 网格)" },
+          { "name": "设计素材与资源", "detail": "图标系统(Fluent/FontAwesome)、插图(Undraw/Humaaans)、图片资源" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "交互设计深入",
+        "duration": "5-7周",
+        "color": "green",
+        "skills": [
+          { "name": "用户研究方法", "detail": "用户访谈、问卷调查、Personas 构建、同理心地图、用户旅程图" },
+          { "name": "信息架构", "detail": "卡片分类、树状测试、站点地图、内容策略、标签系统" },
+          { "name": "线框图与原型设计", "detail": "低保真→高保真迭代、Figma Interactive Components、微交互设计" },
+          { "name": "交互模式库", "detail": "导航模式、表单设计模式、手势交互、空状态/异常状态" },
+          { "name": "可用性测试", "detail": "测试方案设计、任务场景、出声思考法、结果分析与改进" },
+          { "name": "认知心理学", "detail": "希克定律、菲茨定律、雅各布定律、格式塔原理在 UI 中的应用" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "设计系统构建",
+        "duration": "4-6周",
+        "color": "yellow",
+        "skills": [
+          { "name": "Design Tokens", "detail": "颜色/间距/字体/阴影的 Token 化、多主题管理(暗色/亮色)" },
+          { "name": "原子设计方法论", "detail": "原子→分子→有机体→模板→页面、组件命名规范" },
+          { "name": "组件库搭建", "detail": "Figma 组件库 + Storybook、Props/Variants 设计、API 设计" },
+          { "name": "响应式设计体系", "detail": "断点策略、自适应布局、移动优先、折叠屏适配" },
+          { "name": "动效设计", "detail": "缓动函数(Easing)、过渡时机、微交互、Lottie/Rive 动效交付" },
+          { "name": "设计规范文档", "detail": "设计语言定义、使用指南、示例代码、版本变更日志" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "用户增长与数据",
+        "duration": "4-6周",
+        "color": "orange",
+        "skills": [
+          { "name": "A/B 测试", "detail": "假设驱动、变量控制、统计显著性、热力图分析" },
+          { "name": "转化率优化 CRO", "detail": "漏斗分析、用户行为分析(Mixpanel/Amplitude)、转化路径优化" },
+          { "name": "数据驱动的设计", "detail": "定量 vs 定性研究、数据看板设计、指标定义" },
+          { "name": "增长设计", "detail": "用户激活/留存机制、社交传播设计、游戏化设计" },
+          { "name": "设计心理学进阶", "detail": "诱饵效应/锚定效应、社交证明、稀缺性、损失厌恶" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "设计工程化",
+        "duration": "4-6周",
+        "color": "orange",
+        "skills": [
+          { "name": "前端基础(HTML/CSS)", "detail": "理解实现边界、Flexbox/Grid、响应式、与开发高效沟通" },
+          { "name": "设计评审与交付", "detail": "设计评审流程、规范标注、切图导出、版本管理(Figma 版本历史)" },
+          { "name": "无障碍设计", "detail": "WCAG 2.1 标准、ARIA 标签、键盘导航、屏幕阅读器适配" },
+          { "name": "设计运营", "detail": "设计效率工具、组件使用率追踪、设计债务管理" },
+          { "name": "跨职能协作", "detail": "敏捷开发中的设计流程、工程师协作模式、需求评审" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "职业发展与领导力",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "设计领导力", "detail": "Design Critique 主持、设计思维工作坊、跨团队推动设计文化" },
+          { "name": "全链路设计", "detail": "从 0 到 1 产品设计、服务设计蓝图、商业思维" },
+          { "name": "作品集打造", "detail": "案例叙事(Challenge/Action/Result)、Behance/Dribbble 运营" },
+          { "name": "大厂设计师面试", "detail": "作品集评审、设计思维考核、白板挑战、跨职能面试" },
+          { "name": "行业前沿", "detail": "AI 时代的设计(AIGC 工具/设计自动化)、AR/VR 设计、语音交互" },
+          { "name": "品牌设计", "detail": "品牌识别系统(VI)、Logo 设计、品牌指南文档" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "Figma 官方教程", "url": "https://figma.com/learn", "free": true },
+      { "name": "Google UX Design 证书", "url": "https://coursera.org/professional-certificates/google-ux-design", "free": false },
+      { "name": "Refactoring UI", "url": "https://refactoringui.com", "free": false },
+      { "name": "NN/g Nielsen Norman", "url": "https://nngroup.com", "free": true },
+      { "name": "Laws of UX", "url": "https://lawsofux.com", "free": true }
+    ],
+    "milestoneProject": "完整 redesign 一个现有产品(从用户研究→交互原型→设计系统→高保真交付)，制作交互原型并撰写案例研究",
+    "salaryRange": "12-30k (大厂资深可到50k+)"
+  },
+  {
+    "id": "data",
+    "name": "数据分析",
+    "icon": "📊",
+    "description": "从海量数据中挖掘商业洞察，用数据驱动决策",
+    "difficulty": 3,
+    "demand": 4,
+    "estimatedMonths": "5-8",
+    "suitableFor": "对数据敏感、喜欢从数字中发现规律和洞察的人",
+    "relatedPaths": ["ai-algorithm", "backend", "nlp"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "基础工具与思维",
+        "duration": "3-4周",
+        "color": "green",
+        "skills": [
+          { "name": "Excel 高级应用", "detail": "VLOOKUP/INDEX-MATCH、数据透视表、Power Query、条件格式" },
+          { "name": "SQL 数据查询", "detail": "SELECT/JOIN/GROUP BY/窗口函数、子查询、CTE 公用表表达式" },
+          { "name": "数据分析思维", "detail": "漏斗分析/RFM 分析/归因分析、对比/细分/拆解思维" },
+          { "name": "统计学基础", "detail": "描述性统计、概率分布、抽样方法、置信区间" },
+          { "name": "业务指标体系", "detail": "DAU/MAU、留存率、ARR/MRR、LTV/CAC、转化率" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "Python 数据分析",
+        "duration": "5-7周",
+        "color": "green",
+        "skills": [
+          { "name": "Pandas 数据处理", "detail": "DataFrame 操作、groupby/merge/pivot_table、时间序列处理" },
+          { "name": "NumPy 数值计算", "detail": "数组运算、向量化操作、统计函数、线性代数" },
+          { "name": "数据可视化", "detail": "Matplotlib/Seaborn/Plotly、图表选择原则、数据墨水比" },
+          { "name": "数据清洗实战", "detail": "缺失值处理、异常值检测、数据标准化、重复数据处理" },
+          { "name": "Jupyter Notebook", "detail": "交互式分析、代码/文档/可视化融合、报告导出" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "统计建模与分析",
+        "duration": "6-8周",
+        "color": "yellow",
+        "skills": [
+          { "name": "假设检验", "detail": "t 检验/卡方检验/ANOVA、P 值/效应量、第一/二类错误" },
+          { "name": "回归分析", "detail": "线性回归/逻辑回归、多重共线性、异方差性、R² 解释" },
+          { "name": "时间序列分析", "detail": "ARIMA/SARIMA、趋势/季节性分解、平稳性检验" },
+          { "name": "A/B 测试设计", "detail": "样本量计算、分流设计、MDE、多重比较校正" },
+          { "name": "聚类与降维", "detail": "K-Means/层次聚类、PCA/t-SNE、用户分群" },
+          { "name": "因果推断", "detail": "DID 双重差分、PSM 倾向得分匹配、工具变量" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "BI 与数据产品",
+        "duration": "4-6周",
+        "color": "orange",
+        "skills": [
+          { "name": "BI 工具", "detail": "Tableau / Power BI / Metabase / Superset、看板设计" },
+          { "name": "数据仓库基础", "detail": "星型/雪花模型、ETL/ELT 流程、维度建模" },
+          { "name": "数据可视化最佳实践", "detail": "图表类型选择、色彩编码、标注与注释、叙事数据可视化" },
+          { "name": "数据产品思维", "detail": "指标定义、数据采集埋点、数据质量监控" },
+          { "name": "SQL 进阶", "detail": "复杂窗口函数、UDF、查询优化、存储过程" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "大数据与工程化",
+        "duration": "5-7周",
+        "color": "red",
+        "skills": [
+          { "name": "大数据基础", "detail": "Hadoop 生态(HDFS/MapReduce)、Hive 数据仓库、Spark 入门" },
+          { "name": "流式数据处理", "detail": "Kafka + Flink/Spark Streaming、实时指标计算" },
+          { "name": "数据治理", "detail": "数据血缘、元数据管理、数据质量框架、数据安全分级" },
+          { "name": "Python 工程化", "detail": "Airflow 调度、数据 Pipeline 构建、自动化报表" },
+          { "name": "机器学习入门", "detail": "scikit-learn 基础、特征工程、模型评估、业务场景应用" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "面试与职业发展",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "数据分析面试", "detail": "SQL 笔试、Case Study(电商/内容/金融)、业务分析框架" },
+          { "name": "业务分析场景", "detail": "用户留存分析、活动效果评估、补贴 ROI 计算、异常指标排查" },
+          { "name": "数据产品经理", "detail": "数据需求管理、数据产品设计、指标字典建设" },
+          { "name": "数据分析师 vs 数据科学家", "detail": "职业路径选择、技能树差异、转型路线" },
+          { "name": "作品集建设", "detail": "Kaggle 项目、数据分析博客、GitHub 分析项目" },
+          { "name": "行业分析", "detail": "互联网/金融/零售/医疗 不同行业数据分析特点" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "SQLZoo 在线练习", "url": "https://sqlzoo.net", "free": true },
+      { "name": "LeetCode SQL 题库", "url": "https://leetcode.cn/problemset/database", "free": true },
+      { "name": "Kaggle Learn", "url": "https://kaggle.com/learn", "free": true },
+      { "name": "DataCamp", "url": "https://datacamp.com", "free": false }
+    ],
+    "milestoneProject": "完成一个完整的数据分析项目：数据采集→清洗→建模→可视化→报告，并形成可展示的案例",
+    "salaryRange": "12-30k (资深/数据科学家可到60k+)"
+  },
+  {
+    "id": "security",
+    "name": "网络安全",
+    "icon": "🛡️",
+    "description": "从渗透测试到安全架构，守护数字世界的安全",
+    "difficulty": 4,
+    "demand": 4,
+    "estimatedMonths": "10-16",
+    "suitableFor": "对安全攻防感兴趣、思维缜密、喜欢逆向思维和漏洞挖掘的人",
+    "relatedPaths": ["backend", "devops", "fullstack"],
+    "steps": [
+      {
+        "phase": 1,
+        "title": "网络与系统基础",
+        "duration": "5-7周",
+        "color": "green",
+        "skills": [
+          { "name": "计算机网络协议", "detail": "TCP/IP 全栈、HTTP/HTTPS/TLS、DNS 安全、ARP/DHCP 攻击面" },
+          { "name": "Linux 系统安全", "detail": "权限管理(SELinux/AppArmor)、用户/组策略、日志审计、文件完整性" },
+          { "name": "Shell 脚本与自动化", "detail": "Bash/Python 安全脚本、自动化信息收集" },
+          { "name": "数据库安全基础", "detail": "SQL 注入原理、权限最小化、加密存储、审计日志" },
+          { "name": "密码学基础", "detail": "对称/非对称加密、哈希/加盐、数字签名/PKI、TLS 握手" },
+          { "name": "Web 技术基础", "detail": "HTML/CSS/JS、Cookie/Session、同源策略/CORS" }
+        ]
+      },
+      {
+        "phase": 2,
+        "title": "Web 安全深入",
+        "duration": "7-9周",
+        "color": "yellow",
+        "skills": [
+          { "name": "OWASP Top 10 精通", "detail": "SQL注入/XSS/CSRF/SSRF/RCE/文件上传/反序列化 原理与利用" },
+          { "name": "认证与授权漏洞", "detail": "JWT 攻击、OAuth 滥用、越权(Broken Access Control)、Session 固定" },
+          { "name": "API 安全", "detail": "GraphQL 注入、API 滥用、速率限制绕过、Rest API 安全设计" },
+          { "name": "前端安全", "detail": "CSP 策略、XSS 绕过、点击劫持、DOM Clobbering" },
+          { "name": "Burp Suite 精通", "detail": "Proxy/Repeater/Intruder/Scanner、扩展插件、自定义脚本" },
+          { "name": "漏洞挖掘方法论", "detail": "信息收集、攻击面分析、PoC 编写、漏洞报告撰写" }
+        ]
+      },
+      {
+        "phase": 3,
+        "title": "渗透测试与红队",
+        "duration": "8-10周",
+        "color": "orange",
+        "skills": [
+          { "name": "信息收集与侦察", "detail": "子域名枚举、端口扫描、指纹识别、Google Dork、Shodan" },
+          { "name": "内网渗透", "detail": "横向移动、权限提升(Windows/Linux)、域渗透、Kerberos 攻击" },
+          { "name": "漏洞利用开发", "detail": "Metasploit 框架、Exploit-DB、缓冲区溢出、Shellcode 编写" },
+          { "name": "社会工程学", "detail": "钓鱼攻击、水坑攻击、物理渗透、OSINT 开源情报" },
+          { "name": "无线网络攻击", "detail": "WPA2/WPA3 破解、Evil Twin、Deauth 攻击" },
+          { "name": "云安全", "detail": "AWS/Azure/阿里云 安全配置审计、云平台特权提升" },
+          { "name": "渗透测试报告", "detail": "报告结构、风险评级( CVSS )、复现步骤、修复建议" }
+        ]
+      },
+      {
+        "phase": 4,
+        "title": "安全开发与 DevSecOps",
+        "duration": "5-7周",
+        "color": "orange",
+        "skills": [
+          { "name": "安全开发生命周期", "detail": "SDL 流程、威胁建模(STRIDE)、安全需求分析" },
+          { "name": "代码安全审计", "detail": "静态分析(SAST/SonarQube)、动态分析(DAST)、软件成分分析(SCA)" },
+          { "name": "DevSecOps 实践", "detail": "CI/CD 安全集成、容器镜像扫描(Trivy/Clair)、Infra as Code 安全" },
+          { "name": "区块链安全", "detail": "智能合约审计、重入攻击、闪电贷攻击、DeFi 安全" },
+          { "name": "移动端安全", "detail": "App 逆向(APK/IPA)、代码混淆/加固、Root/Jailbreak 检测" }
+        ]
+      },
+      {
+        "phase": 5,
+        "title": "安全架构与蓝队",
+        "duration": "6-8周",
+        "color": "red",
+        "skills": [
+          { "name": "企业安全架构", "detail": "零信任架构(ZTA)、SASE、网络分段、IAM 体系" },
+          { "name": "安全运营(SOC)", "detail": "SIEM(Splunk/ELK)、安全事件响应(IR)、取证分析、威胁狩猎" },
+          { "name": "入侵检测与防护", "detail": "IDS/IPS(Snort/Suricata)、WAF(ModSecurity)、EDR 方案" },
+          { "name": "DDoS 防护", "detail": "流量清洗、CDN 防御、速率限制、Anycast 网络" },
+          { "name": "数据安全与隐私", "detail": "数据分类分级、DLP 数据防泄漏、GDPR/个保法合规" },
+          { "name": "灾难恢复与 BC/DR", "detail": "备份策略、容灾架构、应急响应预案、演练" }
+        ]
+      },
+      {
+        "phase": 6,
+        "title": "认证与职业发展",
+        "duration": "持续",
+        "color": "red",
+        "skills": [
+          { "name": "SRC 漏洞挖掘", "detail": "各大厂商 SRC 平台、漏洞赏金(Bug Bounty)、CVE 编号获取" },
+          { "name": "安全认证", "detail": "CISP/CISSP、OSCP/CEH、CKA 安全方向" },
+          { "name": "CTF 竞赛", "detail": "Web/PWN/Reverse/Crypto/Misc 五大方向、代表性赛事" },
+          { "name": "安全面试准备", "detail": "Web 安全基础、密码学、渗透测试思路、安全架构设计" },
+          { "name": "安全社区与影响力", "detail": "技术博客、安全会议(BlackHat/Defcon)、开源安全工具贡献" },
+          { "name": "AI 安全前沿", "detail": "Prompt 注入/越狱、模型投毒、对抗样本、AI 安全评测" }
+        ]
+      }
+    ],
+    "resources": [
+      { "name": "OWASP 官方指南", "url": "https://owasp.org", "free": true },
+      { "name": "PortSwigger Web Security", "url": "https://portswigger.net/web-security", "free": true },
+      { "name": "HackTheBox", "url": "https://hackthebox.com", "free": false },
+      { "name": "TryHackMe", "url": "https://tryhackme.com", "free": false },
+      { "name": "PicoCTF", "url": "https://picoctf.com", "free": true }
+    ],
+    "milestoneProject": "搭建完整的安全测试实验室(BWAPP/DVWA)，完成一次从信息收集→漏洞利用→权限提升→报告的全流程渗透测试",
+    "salaryRange": "15-40k (安全专家可到70k+)"
+  }
+]
