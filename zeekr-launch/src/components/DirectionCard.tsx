@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 export type Direction = {
   id: string;
+  category: string;
   name: string;
   icon: string;
   description: string;
@@ -16,6 +17,12 @@ export type Direction = {
   resources: Resource[];
   milestoneProject: string;
   salaryRange: string;
+};
+
+export type Category = {
+  id: string;
+  name: string;
+  icon: string;
 };
 
 type Step = {
