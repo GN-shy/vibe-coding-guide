@@ -12,17 +12,3 @@
 
 - **7 个技术方向**：前端、后端、移动端、AI/ML、全栈、DevOps、UI/UX
 - **结构化学习路径**：每个方向拆分为分阶段路线图，包含时长估算和技术要点
-
-## 快速开始
-
-```bash
-# 安装依赖
-cd zeekr-launch
-npm install
-
-# 启动开发服务器
-npm run dev
-
-# 打开浏览器访问 http://localhost:3000
-```
-
